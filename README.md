@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🐾 **Meus Pets - React App** 🐾
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo(a) ao projeto **Meus Pets**! Este é um aplicativo React simples que exibe informações sobre pets e inclui funcionalidades interativas como um formulário para que o usuário digite seu nome e sobrenome. 🌟
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📁 **Estrutura de Pastas**
 
-### `npm start`
+Aqui está a estrutura de diretórios do projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ```bash
+ src/
+│
+├── App.js
+├── App.css
+├── components/
+│   ├── Assets/
+│   ├── Button/
+│   ├── Footer/
+│   ├── FormInput/
+│   ├── Formulario/
+│   ├── Header/
+│   ├── Hello/
+│   ├── Msg/
+│   ├── Pet/
+│   └── Pets/
+└── index.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ```
 
-### `npm test`
+### 📂 **Descrição das Pastas**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Assets/**: 🖼️ Contém as imagens e recursos estáticos usados no projeto.
+- **Button/**: 🖲️ Contém o componente de botão reutilizável do projeto.
+- **Footer/**: 🚪 Contém o rodapé (footer) do site.
+- **FormInput/**: ✍️ Contém os inputs individuais para o formulário.
+- **Formulario/**: 📝 Contém o formulário para o usuário deixar sua opinião.
+- **Header/**: 📢 Contém o cabeçalho do site, exibindo o nome e o sobrenome do usuário.
+- **Hello/**: 👋 Um componente simples que exibe uma saudação personalizada para o usuário.
+- **Msg/**: 💬 Um componente de mensagem que exibe textos destacados.
+- **Pet/**: 🐕 Componente individual que exibe as informações de um pet.
+- **Pets/**: 🐾 Lista de pets, cada um representado pelo componente **Pet**.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 **Como Rodar o Projeto**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para executar este projeto localmente, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/DanySanches/MeusPets
+   ```
+2.Navegue até o diretório do projeto:
+  
+  ```bash
+    cd meus-pets
+  ```
+3.Instale as dependências:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+    npm install
+   ```
+4.Execute o projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+    npm start
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ **Funcionalidades Principais**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- 🐱 **Exibição de Pets**: O componente **Pets** exibe uma lista de pets que são representados individualmente pelo componente **Pet**.
+- 💬 **Mensagem Customizada**: O componente **Msg** pode ser usado para exibir mensagens coloridas.
+- 📝 **Formulário de Opinião**: Um formulário que permite que o usuário deixe sua opinião sobre o conteúdo exibido.
+- 👨‍💻 **Nome e Sobrenome Interativos**: O usuário pode inserir seu nome e sobrenome, e o cabeçalho será atualizado automaticamente com essas informações após o envio.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ **Tecnologias Utilizadas**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React** ⚛️ - Biblioteca JavaScript para construir interfaces de usuário.
+- **CSS** 🎨 - Usado para estilização dos componentes.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
