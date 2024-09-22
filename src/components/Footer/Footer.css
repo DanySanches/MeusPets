@@ -1,0 +1,16 @@
+.footer {
+ width: 100%;
+ background-image: linear-gradient(to bottom right, #ea80ee,#792a9c);
+
+ padding: 5px 0px ;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ bottom: 0;
+}
+
+.footer h4 {
+    color: rgb(232, 235, 235);
+    font-size: 0.9rem;
+}

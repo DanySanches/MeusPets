@@ -1,0 +1,16 @@
+.form-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.form-input input{
+    margin-left: 5px;
+    border: 1px solid darkmagenta ;
+    font-size: 12px;
+    outline: none;
+    border-radius: 5px;
+
+}

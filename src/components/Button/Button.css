@@ -1,0 +1,17 @@
+
+.form button{
+    padding: 10px;
+    font-family: "Playpen Sans", cursive; 
+    background-color: #da7fe4;
+    color: aliceblue;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .4s all;
+    border: 1px solid darkmagenta;
+ }
+ 
+ .button:hover{
+     transform: scale(1.1);
+ }
+ 

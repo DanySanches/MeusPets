@@ -1,0 +1,41 @@
+.header {
+    background-image: linear-gradient(to bottom right, #ea80ee,#792a9c);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{ 
+    color: rgb(232, 235, 235);
+    font-size: 1.2rem;
+    margin-left: .5rem;
+}
+
+button {
+        padding: 10px;
+        font-family: "Playpen Sans", cursive; 
+        background-color: #da7fe4;
+        color: aliceblue;
+        outline: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: .4s all;
+        border: 1px solid darkmagenta;
+        margin: 10px;
+     }
+     
+     .button:hover{
+         transform: scale(1.1);
+}
+
+
+
+
+.enter input{
+    margin-left: 10px;
+    border: 1px solid darkmagenta ;
+    font-size: 12px;
+    outline: none;
+    border-radius: 5px;
+
+}
